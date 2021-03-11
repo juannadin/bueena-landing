@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'reset';
+@import 'normalize';
+@import 'fonts';
+
+@import '../components/Header/styles';
+@import '../components/Hero/styles';
+@import '../components/LogoClouds/styles';
+
+body {
+  display: flex;
+  justify-content: center;
+  color: $gray-900;
+}
+
+#root, .bueena-landing {
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+@mixin font-size($size-value: 1.6) {
+  font-size: $size-value;             // Default value to support legacy versions.
+  font-size: ($size-value / $base-font-size) + rem;  // sass-lint:disable-line no-duplicate-properties
+}
+
+@function calculate-rem($value) {
+  @return ($value / $base-font-size) + rem; // 16px is base-html-font-size.
+}
+
+@mixin set-dimensions($width, $height) {
+  width: calculate-rem($width);
+  height: calculate-rem($height);
+}
