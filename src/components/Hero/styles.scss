@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  &__bounds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: $page-width;
+  }
+
+  &__title {
+    text-align: center;
+    margin: calculate-rem(96px) 0 calculate-rem(32px);
+  }
+}
