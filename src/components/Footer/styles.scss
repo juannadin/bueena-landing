@@ -1,0 +1,37 @@
+.footer {
+  @include create-bounds();
+  background-color: $black;
+  height: 256px;
+  color: $gray-300;
+
+  &__bounds {
+    flex-direction: column;
+  }
+
+  &__section {
+    display: flex;
+
+    &--centered {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &--space-between {
+      justify-content: space-between;
+    }
+
+    & .logo {
+      margin-top: rem(48px);
+    }
+    & .navigation {
+      margin: rem(40px) 0;
+    }
+  }
+
+  &__divider {
+    background: $white;
+    opacity: 0.2;
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -8,17 +8,4 @@
     justify-content: space-between;
     height: rem(72px);
   }
-  .logo {
-    @include set-dimensions(118px, 28px);
-  }
-
-  .navigation {
-    
-    &__list {
-      width: 208px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
 }

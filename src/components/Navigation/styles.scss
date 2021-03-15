@@ -1,0 +1,15 @@
+.navigation { 
+  &__list {
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-item {
+      &--light {
+        a { color: $white; }
+      }
+    }
+
+  }
+}

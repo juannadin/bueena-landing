@@ -1,0 +1,5 @@
+.cta {
+  @include create-bounds();
+  background-color: $brand-purple;
+  height: rem(480px);
+}
