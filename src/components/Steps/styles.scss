@@ -1,0 +1,23 @@
+.steps {
+  @include create-bounds();
+  height: rem(500px);
+
+  &__bounds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    width: rem(730px);
+    margin-bottom: rem(40px);
+  }
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+@import './Step/styles';

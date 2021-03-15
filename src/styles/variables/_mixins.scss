@@ -3,11 +3,22 @@
   font-size: ($size-value / $base-font-size) + rem;  // sass-lint:disable-line no-duplicate-properties
 }
 
-@function calculate-rem($value) {
+@function rem($value) {
   @return ($value / $base-font-size) + rem; // 16px is base-html-font-size.
 }
 
 @mixin set-dimensions($width, $height) {
-  width: calculate-rem($width);
-  height: calculate-rem($height);
+  width: rem($width);
+  height: rem($height);
+}
+
+@mixin create-bounds() {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  &__bounds {
+    display: flex;
+    width: $page-width;
+  }
 }

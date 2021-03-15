@@ -1,0 +1,7 @@
+.step {
+  @include set-dimensions(255px, 204px);
+
+  &__icon {
+    height: rem(72px);
+  }
+}

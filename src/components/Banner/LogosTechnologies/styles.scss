@@ -1,0 +1,66 @@
+.logos-technologies {
+  position: relative; 
+  
+  &__ellipse {
+    position: absolute;
+    border-radius: 50%;
+
+    &--small {
+      @include set-dimensions($small-ellipse-size, $small-ellipse-size);
+      left: calc(50% - #{$small-ellipse-size} / 2);
+      top: calc(50% - #{$small-ellipse-size} / 2);
+      background-color: $white;
+    }
+    &--medium {
+      @include set-dimensions($medium-ellipse-size, $medium-ellipse-size);
+      left: calc(50% - #{$medium-ellipse-size} / 2);
+      top: calc(50% - #{$medium-ellipse-size} / 2);
+      background-color: $brand-purple-100;
+    }
+    &--large {
+      @include set-dimensions($large-ellipse-size, $large-ellipse-size);
+      left: calc(50% - #{$large-ellipse-size} / 2);
+      top: calc(50% - #{$large-ellipse-size} / 2);
+      box-sizing: border-box;
+      border: 3px solid $brand-purple-100;
+    }
+  }
+
+  &__logo {
+    @include set-dimensions($technology-logo-size, $technology-logo-size);
+    position: absolute;
+
+    &--top {
+      left: calc(50% - #{$technology-logo-size} / 2);
+      top: calc(#{-$technology-logo-size} / 2);
+    }
+    &--top-left {
+      left: 0;
+      top: calc(25% - #{$technology-logo-size} / 2);
+    }
+    &--left {
+      left: calc(#{-$technology-logo-size} / 2);
+      top: calc(50% - #{$technology-logo-size} / 2);
+    }
+    &--bottom-left {
+      left: 0;
+      top: calc(75% - #{$technology-logo-size} / 2);
+    }
+    &--top-right {
+      right: 0;
+      top: calc(25% - #{$technology-logo-size} / 2);
+    }
+    &--right {
+      right: calc(#{-$technology-logo-size} / 2);
+      top: calc(50% - #{$technology-logo-size} / 2);
+    }
+    &--bottom-right {
+      right: 0;
+      top: calc(75% - #{$technology-logo-size} / 2);
+    }
+    &--bottom {
+      left: calc(50% - #{$technology-logo-size} / 2);
+      bottom: calc(#{-$technology-logo-size} / 2);
+    }
+  }
+}

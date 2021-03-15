@@ -5,83 +5,83 @@ html, body {
 
 .headline-1 {
   @include font-size($h1-size);
-  line-height: calculate-rem($h1-height);
+  line-height: rem($h1-height);
   font-weight: $h1-weight;
 }
 .headline-2 {
   @include font-size($h2-size);
-  line-height: calculate-rem($h2-height);
+  line-height: rem($h2-height);
   font-weight: $h2-weight;
 }
 .headline-3 {
   @include font-size($h3-size);
-  line-height: calculate-rem($h3-height);
+  line-height: rem($h3-height);
   font-weight: $h3-weight;
 }
 .headline-4 {
   @include font-size($h4-size);
-  line-height: calculate-rem($h4-height);
+  line-height: rem($h4-height);
   font-weight: $h4-weight;
 }
 .headline-5 {
   @include font-size($h5-size);
-  line-height: calculate-rem($h5-height);
+  line-height: rem($h5-height);
   font-weight: $h5-weight;
 }
 .headline-6 {
   @include font-size($h6-size);
-  line-height: calculate-rem($h6-height);
+  line-height: rem($h6-height);
   font-weight: $h6-weight;
 }
 .subtitle-1 {
   @include font-size($subtitle-1-size);
-  line-height: calculate-rem($subtitle-1-height);
+  line-height: rem($subtitle-1-height);
   font-weight: $subtitle-1-weight;
 }
 .subtitle-2 {
   @include font-size($subtitle-2-size);
-  line-height: calculate-rem($subtitle-2-height);
+  line-height: rem($subtitle-2-height);
   font-weight: $subtitle-2-weight;
 }
 .lead-1 {
   @include font-size($lead-1-size);
-  line-height: calculate-rem($lead-1-height);
+  line-height: rem($lead-1-height);
   font-weight: $lead-1-weight;
 }
 .lead-2 {
   @include font-size($lead-2-size);
-  line-height: calculate-rem($lead-2-height);
+  line-height: rem($lead-2-height);
   font-weight: $lead-2-weight;
 }
 .body-1 {
   @include font-size($body-1-size);
-  line-height: calculate-rem($body-1-height);
+  line-height: rem($body-1-height);
   font-weight: $body-1-weight;
 }
 .body-2 {
   @include font-size($body-2-size);
-  line-height: calculate-rem($body-2-height);
+  line-height: rem($body-2-height);
   font-weight: $body-2-weight;
 }
 .large-label {
   @include font-size($large-label-size);
-  line-height: calculate-rem($large-label-height);
+  line-height: rem($large-label-height);
   font-weight: $large-label-weight;
 }
 .medium-label {
   @include font-size($medium-label-size);
-  line-height: calculate-rem($medium-label-height);
+  line-height: rem($medium-label-height);
   font-weight: $medium-label-weight;
 }
 .small-label {
   @include font-size($small-label-size);
-  line-height: calculate-rem($small-label-height);
+  line-height: rem($small-label-height);
   font-weight: $small-label-weight;
 }
 .capitalized {
   @include font-size($capitalized-size);
-  line-height: calculate-rem($capitalized-height);
+  line-height: rem($capitalized-height);
   font-weight: $capitalized-weight;
   text-transform: $capitalized-transform;
-  letter-spacing: calculate-rem($capitalized-spacing);
+  letter-spacing: rem($capitalized-spacing);
 }

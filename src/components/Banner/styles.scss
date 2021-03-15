@@ -1,0 +1,27 @@
+@import './LogosTechnologies/styles';
+
+.banner {
+  @include create-bounds();
+  background-color: $brand-purple-800;
+  height: rem(614px);
+
+  &__bounds {
+    flex-direction: row;
+  }
+
+  &__column {
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    width: rem(445px);
+  }
+
+  &__title {
+    margin: 0;
+  }
+}

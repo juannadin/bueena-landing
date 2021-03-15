@@ -3,9 +3,11 @@
 @import 'normalize';
 @import 'fonts';
 
+@import '../components/Button/styles';
 @import '../components/Header/styles';
 @import '../components/Hero/styles';
-@import '../components/LogoClouds/styles';
+@import '../components/Banner/styles';
+@import '../components/Steps/styles';
 
 body {
   display: flex;

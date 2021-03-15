@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from '../Header';
 import Hero from '../Hero';
-import LogoClouds from '../LogoClouds';
+import Banner from '../Banner';
+import Steps from '../Steps';
 
 function Main() {
   return (
     <div className="bueena-landing">
       <Header />
       <Hero />
-      <LogoClouds />
+      <Banner />
+      <Steps />
     </div>
   );
 }

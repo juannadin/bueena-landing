@@ -1,17 +1,32 @@
 .hero {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  @include create-bounds();
+  height: rem(790px);
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid $gray-100;
 
   &__bounds {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: $page-width;
+    align-items: center;
   }
 
   &__title {
+    margin: rem(96px) 0 rem(32px);
     text-align: center;
-    margin: calculate-rem(96px) 0 calculate-rem(32px);
+  }
+
+  &__ellipse {
+    position: absolute;
+    background-color: $brand-purple-800;
+    height: rem(1200px);
+    width: rem(2066px);
+    top: rem(620px);
+    border-radius: 50%;
+  }
+
+  &__asset {
+    position: absolute;
+    width: rem(340px);
+    bottom: 0;
   }
 }
