@@ -5,12 +5,12 @@
   &__bounds {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   &__title {
     width: rem(730px);
-    margin-bottom: rem(40px);
+    margin-bottom: rem(56px);
+    margin-top: rem(64px)
   }
 }
 

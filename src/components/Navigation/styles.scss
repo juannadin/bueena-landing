@@ -1,6 +1,6 @@
 .navigation { 
   &__list {
-    width: 208px;
+    width: rem(208px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;

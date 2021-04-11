@@ -6,7 +6,7 @@ const Hero = () => (
     <div className="hero__bounds">
       <h1 className="hero__title headline-1">Bring your dream business to life, simple and fast</h1>
       <div className="hero__action">
-        <Button href="#">Get Started</Button>
+        <Button href="#" flavor="primary" size="large">Get Started</Button>
       </div>
     </div>
     <div className="hero__ellipse"></div>

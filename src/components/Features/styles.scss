@@ -1,0 +1,32 @@
+.features {
+  @include create-bounds();
+  background-color: $black;
+  height: rem(1168px);
+  
+  &__bounds {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    width: rem(700px);
+    margin-top: rem(80px);
+    color: $white;
+    text-align: center;
+  }
+
+  .features-list {
+    margin-top: rem(48px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__link {
+    align-self: flex-start;
+    margin-top: rem(14px);
+  }
+}
+
+
+@import './Feature/styles.scss';

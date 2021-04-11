@@ -17,7 +17,7 @@ const Navigation:FC<NavigationProps> = ({ theme }) => {
     <nav className="navigation">
       <ul className="navigation__list">
         <li className={navigationListItemClassNames}><a href="#">Team</a></li>
-        <li className={navigationListItemClassNames}><a href="#">Services</a></li>
+        <li className={navigationListItemClassNames}><a href="#">Features</a></li>
         <li className={navigationListItemClassNames}><a href="#">Join us</a></li>
       </ul>
     </nav>

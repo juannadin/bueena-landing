@@ -1,7 +1,7 @@
 .footer {
   @include create-bounds();
   background-color: $black;
-  height: 256px;
+  height: rem(256px);
   color: $gray-300;
 
   &__bounds {
@@ -15,16 +15,17 @@
       flex-direction: column;
       align-items: center;
     }
-
+    
     &--space-between {
-      justify-content: space-between;
+      height: rem(76px);
+      align-items: center;
     }
 
     & .logo {
       margin-top: rem(48px);
     }
     & .navigation {
-      margin: rem(40px) 0;
+      margin: rem(36px) 0;
     }
   }
 

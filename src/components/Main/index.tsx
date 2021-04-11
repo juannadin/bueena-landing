@@ -3,7 +3,7 @@ import Header from '../Header';
 import Hero from '../Hero';
 import Banner from '../Banner';
 import Steps from '../Steps';
-import Services from '../Services';
+import Features from '../Features';
 import CTA from '../CTA';
 import Footer from '../Footer';
 
@@ -14,7 +14,7 @@ function Main() {
       <Hero />
       <Banner />
       <Steps />
-      <Services />
+      <Features />
       <CTA />
       <Footer />
     </div>

@@ -2,13 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 196px;
-  height: 62px;
-  border-radius: 8px;
-  color: $brand-purple;
+  border-radius: rem(8px);
+  color: $brand-color;
+  background-color: $white;
 
-  &__main {
-    background-color: $brand-purple;
+  &--primary {
+    background-color: $brand-color;
     color: $white;
+  }
+  
+  &--secondary {
+    background-color: $brand-color-100;
+    color: $brand-color;
+  }
+  &--outline {
+    background: none;
+    border: 1px solid $white;
+    color: $white;
+    padding-right: rem(20px);
+    background: url("../../assets/right-arrow-white.svg") 160px 18px no-repeat;
+  }
+
+  &--small {
+    width: rem(66px);
+    height: rem(28px);
+  }
+  &--medium {
+    width: rem(100px);
+    height: rem(40px);
+  }
+  &--large {
+    width: rem(196px);
+    height: rem(62px);
   }
 }

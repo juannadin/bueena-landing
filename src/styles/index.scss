@@ -1,3 +1,4 @@
+$theme: 'purple';
 @import 'variables';
 @import 'reset';
 @import 'normalize';
@@ -10,7 +11,7 @@
 @import '../components/Hero/styles';
 @import '../components/Banner/styles';
 @import '../components/Steps/styles';
-@import '../components/Services/styles';
+@import '../components/Features/styles';
 @import '../components/CTA/styles';
 @import '../components/Footer/styles';
 @import '../components/SocialLinks/styles';

@@ -1,0 +1,29 @@
+.feature {
+  box-sizing: border-box;
+  width: rem(350px);
+  height: rem(346px);
+  border-radius: rem(5px);
+  margin-bottom: rem(32px);
+  background-color: $white;
+  &__content {
+    padding: rem(40px) rem(32px);
+  }
+  &__icon {
+    width: rem(32px);
+    height: rem(32px);
+  }
+  &__title {
+    margin-top: rem(54px);
+  }
+  &__detail {
+    margin-top: rem(12px);
+  }
+  &__link {
+    margin-top: rem(42px);
+    a { 
+      color: $brand-color;
+      padding-right: rem(30px);
+      background: url("../../../assets/right-arrow-purple.svg") 51px 0px /16px no-repeat;
+    }
+  }
+}

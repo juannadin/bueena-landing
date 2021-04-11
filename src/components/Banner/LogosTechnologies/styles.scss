@@ -15,14 +15,14 @@
       @include set-dimensions($medium-ellipse-size, $medium-ellipse-size);
       left: calc(50% - #{$medium-ellipse-size} / 2);
       top: calc(50% - #{$medium-ellipse-size} / 2);
-      background-color: $brand-purple-100;
+      background-color: $brand-color-100;
     }
     &--large {
       @include set-dimensions($large-ellipse-size, $large-ellipse-size);
       left: calc(50% - #{$large-ellipse-size} / 2);
       top: calc(50% - #{$large-ellipse-size} / 2);
       box-sizing: border-box;
-      border: 3px solid $brand-purple-100;
+      border: 3px solid $brand-color-100;
     }
   }
 

@@ -1,3 +1,4 @@
+$theme: 'purple' !default;
 $gray-900: #18191F;
 $gray-800: #474A57;
 $gray-700: #969BAB;
@@ -27,3 +28,24 @@ $accent-light-peach: #FDD9D9;
 $accent-candy: #FFC3D8;
 $accent-cyan: #A0DCFF;
 
+$brand-color: $brand-purple !default;
+$brand-color-800: $brand-purple-800 !default;
+$brand-color-100: $brand-purple-100 !default;
+
+@if $theme == 'turquoise' {
+  $brand-color: $brand-turquoise;
+  $brand-color-800: $brand-turquoise-800;
+  $brand-color-100: $brand-turquoise-100;
+}
+
+@if $theme == 'orange' {
+  $brand-color: $brand-orange;
+  $brand-color-800: $brand-orange-800;
+  $brand-color-100: $brand-orange-100;
+}
+
+@if $theme == 'pink' {
+  $brand-color: $brand-pink;
+  $brand-color-800: $brand-pink-800;
+  $brand-color-100: $brand-pink-100;
+}
